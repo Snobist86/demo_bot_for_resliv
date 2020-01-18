@@ -9,7 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class InfoDto {
 
-    private Long id;
     private String cityName;
     private String description;
 }

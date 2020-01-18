@@ -18,7 +18,7 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name = "info", schema = "info_storage")
+@Table(name = "info")
 public class Info extends BaseEntity<Long> {
 
     @Column(name = "city", length = 128, unique = true)
